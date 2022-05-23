@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.pswal{
+	color:brown;
+	font-family:fantasy;
+}
+
+.psalir{
+	font-size: 30px;
+	color: rgb(0, 0, 0);
+}
+
+
+
+
+.btn-danger{
+    z-index: 1;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+
+#leer{
+    display: flex;
+    float: right;
+    margin-top: -100px;
+}
+
+
+.text-center{
+    margin-top: 50px;
+	margin-bottom: 50px;
+    font-size: 80px;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    width: 50vw;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #CCD1E4;
+    font-weight: 600;
+    z-index: 1 
+}
+
+
+
+.filtro{
+    display: none;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+.contenedor .juego {
+	text-align: center;
+}
+
+.contenedor .juego .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .juego .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.paginacion {
+	position: fixed;
+	bottom: 0;
+	background-image:url(./gif/pacman.gif);
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background: #62d485;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	transition: .3s ease all;
+}
+
+.paginacion button:hover {
+	background: #7c132a;
+}
